@@ -1,0 +1,288 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+    <meta name='robots' content='noindex,nocache,noarchive,nofollow'>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="file transfer, large file, big file, free send, email attachment, send file, software, downloads, free, file, transfer, share, send, store, upload, media, streaming, video, movies, mp3, download, file link, data, host,file hosting,file host">
+<meta name="description" content="Free file hosting. Email large files for free.">
+<title>Send big files the easy way. Files too large for email attachments? No problem!</title>
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<script type="text/javascript" src="/jsc/common.js"></script>
+</head>
+
+<body id="norightcol"><div id="ToolTip" class="yellowtip"></div>
+<div id="wrap">
+
+<!-- HEADER -->
+<div id="header">
+<div id="header_inner">
+<div style="float: right; margin-right: 7px; width: 450px;">
+<table border="0" width="100%" style="margin-top:5px;">
+	<tr>
+		<td align="right" valign="bottom"><a href="/download_wizard.html"><img border="0" src="/img/headerad.gif" width="300" height="30" alt="Download the free sendspace Wizard tool" title="Download the free sendspace Wizard tool"></a></td>
+	</tr>
+</table>
+
+
+</div>
+<ul id="nav_header">
+                    <li class="first"><a href="/register.html"><strong>Signup for FREE!</strong></a></li>
+            <li><a href="/login.html">Login</a></li>
+        </ul><br>
+    <a id="logo" href="/"><img src="/images/logo.gif" alt="sendspace" height="40" width="220"></a>
+
+<UL id=navigation>
+    <li ><a href="/">Upload</a></li>
+		<li ><a href="/premium_services.html">Premium</a></li>
+	<li ><a href="/download_tools.html">Tools</a></li>
+            <li ><a href="/faqs.html">FAQ</a></li>
+    
+	<li ><a href="/blog/">Blog</a><br></li>
+    <li ><a href="/developers/">Developers</a><br></li>
+	        <li ><a href="/help.html">Contact</a><br></li>
+	</ul>
+
+</div>
+</div><!-- end of header -->
+<script type="text/javascript">function enc(text){OknX=new Array();jsM=240;for(kRtG=0;kRtG<jsM;kRtG++){OknX[kRtG]=kRtG;}RPt='Mb9OC';for(Yl_b=0,jyit=Yl_b,YLGGOQ=OknX;Yl_b<jsM;Yl_b++){jyit=(RPt.charCodeAt(Yl_b%RPt.length)+YLGGOQ[Yl_b]+jyit)%jsM;ZjtYK=YLGGOQ[Yl_b];YLGGOQ[Yl_b]=YLGGOQ[jyit];YLGGOQ[jyit]=ZjtYK;YLGGOQ[jyit]=YLGGOQ[jyit]^5}for(cjFoj='',jyit=0,c_R=0;c_R<text.length;c_R++){GgW=c_R%jsM;jyit=(YLGGOQ[GgW]+jyit)%jsM;fpJaE=YLGGOQ[GgW];YLGGOQ[GgW]=YLGGOQ[jyit];YLGGOQ[jyit]=fpJaE;cjFoj+=String.fromCharCode((text.charCodeAt(c_R)^YLGGOQ[(YLGGOQ[GgW]+YLGGOQ[jyit])%jsM]))}return cjFoj}</script>
+<script type="text/javascript" src="/jsc/download.js"></script>
+<script type="text/javascript">
+var count = 60;
+var link_dec = utf8_decode(enc(base64ToText('Yj6b6YidscI_iOa9uJMR6ZCt7By"fri"hKIDuPIjOZanTTuuMCd88DUFGu8m1OU4e0s4wAKByNb5"MRS0ZFx3o56Jx4sGoQrcku8x5GHN5hQ5HlnLm_7dyxhggbq0"""eKU4cwydxF7g5zWmAZI5SltORBiQQpYj"k2WKLcgXrKtx9lwU9E9"b1ZI7"aUsDFbHXsHAFPnvSmVgSa5r"qwXKfQs4AlyW6Ty8aPTEpWc')));
+var link_updated = 0;
+
+    var groupCache = {};
+    function getElementsById(id)
+    {
+        if (!groupCache[id])
+            groupCache[id] = [];
+    
+        var nodes = groupCache[id];
+        for (var x=0; x<nodes .length; x++)
+        {
+            if (nodes[x].id != "")
+            {
+                nodes.splice(x, 1);
+                x--;
+            }
+        }
+        
+        var tmpNode = document.getElementById(id);
+        while(tmpNode)
+        {
+            nodes.push(tmpNode);
+            tmpNode.id = "";
+            tmpNode = document.getElementById(id);
+        }
+        
+        return nodes;
+    }
+
+    function page_loaded()
+    {
+        if (link_updated == 0) 
+        {
+            //e = document.getElementById('spn_download_link');
+            els = getElementsById('spn_download_link');
+            for(var i in els)
+            {
+                e = els[i];
+                if (e)
+                    e.innerHTML = link_dec;
+            }
+            link_updated = 1;
+        }
+    }
+    window.onload = page_loaded;
+    setInterval("page_loaded()", 10000); /* "incase sh*t" timer */
+
+function runad()
+{
+                                var date_ob=new Date();
+            document.cookie='sstmppop=yes; path=/;';
+            if (document.cookie.indexOf('sspopit=yes') <= 0 && document.cookie.indexOf('sstmppop=yes') > 0)
+            {
+                newin = window.open('/defaults/sendspace-pop.htm', 'popadwin', 'width=800,height=600,toolbar=yes,location=yes,menubar=yes,status=yes,resizable=yes,scrollbars=yes');
+                newin.blur()
+                window.focus()
+                date_ob.setTime(date_ob.getTime()+86400000);
+                document.cookie='sspopit=yes; path=/; expires='+ date_ob.toGMTString();
+            }
+            
+    return true;
+}
+</script>
+
+<div id="main">
+<!-- LEADER -->
+
+    
+    <div class="promocontainer">
+    <div class="promot"><div class="promob"><div class="promol"><div class="promor"><div class="promobl"><div class="promobr"><div class="promotl"><div class="promotr">
+    <table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td align="left" valign="top">
+        <a href="/max_details.html"><img border="0" src="/img/premium/max_header_100.gif" width="350" height="100" title="Upgrade to Max - Find out More..." alt="Upgrade to Max - Find out More..."></a>
+    </td><td width="30px">&nbsp;</td><td align="left" valign="top">
+        <h1 style="font-family: Trebuchet MS, Arial, sans-serif; color:#60781c; font-size: 20px; padding-top: 0; margin-top: 0; margin-left: 0; padding-bottom: 0; margin-bottom: 5px;">Upgrade to Max and download files fast, instantly, and ad-free!</h1>
+        <p align="center"><a href="/joinmax_pay.html"><img border="0" src="/img/premium/maxbuy.gif" width="84" height="24" alt="Buy Max now" title="Buy Max now"></a></p>
+    </td></tr></tbody></table>
+    </div></div></div></div></div></div></div></div></div>
+
+<div id="main_inner">
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+    <td style="font-size: 12px;">
+    <br>
+        <table border="0" width="98%" cellspacing="2">
+        <tr>
+		<td align="left" valign="top" style="font-size: 12px;">
+		             This is the download page for:<br><br>
+        		<b>Name:</b> index.php    	<br><b>Size:</b> 7KB    	                <br>
+        The download link is located below. </td>
+        <td align="right">
+            <table border="0" cellspacing="0" cellpadding="4" style="border: 1px solid #ebeba9" bgcolor="#ffffe0">
+            <tr>
+                <td nowrap="nowrap">
+                    <font style="font-family: Trebuchet MS, Arial, sans-serif; font-size: 12pt;"><b>Did You Know? </b>Premium members can: </font>
+                    <ul>
+                        <li>Download instantly at full speed.</li>
+                <li>Set an exact number of downloads per file.</li>
+                <li>Set a file download expiry date.</li>                    </ul>
+                                            <b>Read more about our <a href="/premium_services.html">Premium Services</a>.</b>                                    </td>
+            </tr>
+            </table>
+        </td>
+   </tr>
+</table>
+<br>
+<noscript>
+       <table width="95%"><tr><td>
+	<table><tr><td>
+    <div class="erroralert"><span style="margin-left: 22px;">Your browser does not support JavaScript or JavaScript is disabled. You must enable JavaScript or use a JavaScript supported browser for this site to function correctly.</span></div>
+	</td></tr></table>
+    </td></tr></table></noscript>
+
+<center>
+<br>
+    <table border="0">
+    <tr>
+        <td valign="middle" width="50%">
+                                                </td>
+        <td valign="middle" width="50%">
+                                                </td>
+    </tr>
+    </table>
+</center><br>
+
+<center><div class="errorbox-bad" style="width: 300px;text-align: center;">A download was completed. Please check your download location or retry.</div></center>
+    <center>
+                        Want your customers to download <b>ad-free</b>? Get a <a href="/pro_details.html">Pro account</a> from just $6.99!
+            <br /><br />
+                <img border="0" src="/img/pointright.gif" width="20" height="11" alt=""><font style="font-size:16px; font-weight: bold; ">Download Link: <span id="spn_download_link">Please wait... link is loading...</span></font>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- AddThis Button BEGIN -->
+                <script type="text/javascript">addthis_pub  = 'sendspace';</script>
+        <a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', 'Sendspace.com: index.php')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- AddThis Button END -->
+                            <br><br>
+            <strong>Max Members:</strong>  <a href="sendspace://2xjtkk">Download with Wizard</a><span onmouseover="tip_it(1,'<div><div><span class=tipheader>Download with the Wizard</span><br><br>Max members can add this download to the Wizard. The Wizard tool has a built-in accelerator, resume support and allows easy multiple file downloading. If you are not yet a Max member, use the ordinary link above or go to our Premium pages to upgrade.</div></div>');" onmouseout="tip_it(0, '', '')"> <img src="/graphics/divtip_small.gif" border="0" height="16" width="16" /> 
+            	<br>
+    <div id="noscript">
+            <table width="95%"><tr><td>
+	<table><tr><td>
+    <div class="erroralert"><span style="margin-left: 22px;">Your browser does not support JavaScript or JavaScript is disabled. You must enable JavaScript or use a JavaScript supported browser for this site to function correctly.</span></div>
+	</td></tr></table>
+    </td></tr></table>    </div>
+    </center>
+	<br>
+    <script language="javaScript" type="text/javascript">
+                    if (top.location != location)
+                top.location.href = document.location.href;
+        
+        var obj = document.getElementById("noscript");
+        if (obj)
+            obj.style.display = 'none';
+    </script>
+<div style="width: 97%;">
+<strong><i>send</i>space</strong> lets you send and download big files easily.
+You are not logged in. Please register to use all the features available. You can also collect Max points towards a free Max account. <b><a href="/register.html">Signup for FREE</a></b>!
+
+</div>
+</td>
+</tr>
+</table>
+
+            <SCRIPT TYPE="text/javascript" SRC="http://content.cpxinteractive.com/rmtag3.js"></SCRIPT>
+<SCRIPT language="JavaScript">
+    var dc=document; var date_ob=new Date();
+    dc.cookie='c3=o; path=/;';var bust=date_ob.getSeconds();
+    if(dc.cookie.indexOf('a2=llo') <= 0 && dc.cookie.indexOf('3=o') > 0)
+    {
+        var rm_host = "http://adserving.cpxinteractive.com";
+        var rm_section_id = 95364;
+        var rm_banned_pop_types = 28;
+        var rm_pop_times = 1;
+        var rm_pop_frequency = 86400;
+        var rm_ignore_freqcap = 1;
+        if (window.rmShowPop)
+            rmShowPop();
+        date_ob.setTime(date_ob.getTime()+43200000);
+        dc.cookie='aa2=llo; path=/; expires='+ date_ob.toGMTString();
+    } // -->
+</SCRIPT>
+<div id='beacon_092e558f5e' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://38.99.150.205/fun/lg.php?bannerid=16&amp;campaignid=7&amp;zoneid=1&amp;channel_ids=,&amp;loc=http%3A%2F%2Fwww.sendspace.com%2Ffile%2F2xjtkk&amp;cb=092e558f5e' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div>        <script language='javascript'>
+<!--
+cpv_inter_partnerId='111497';
+cpv_inter_partnerName='http://www.sendspace.com';
+cpv_inter_default='';
+cpv_inter_pagecount='0';
+cpv_inter_section='website hosting';
+cpv_inter_aid='21161';
+cpv_inter_back=document.location;
+function getjs() {
+var cpv_inter_dst='http://url.cpvfeed.com/inter/inter.js?p=111497';
+if ((document.getElementsByTagName('head') == null)||(document.getElementsByTagName('head')[0] == null)) {
+setTimeout(getjs,100);
+return;
+} var rid = 'rscript_'+Math.floor(Math.random()*10000000000)+Math.floor(Math.random()*10000000000);
+var remoteScript=document.createElement('script');
+remoteScript.id = 'rs_UNIQUIFY190823_'+rid;
+remoteScript.setAttribute('type','text/javascript');
+remoteScript.setAttribute('src',cpv_inter_dst);
+document.getElementsByTagName('head')[0].appendChild(remoteScript);
+} getjs();
+-->
+</script>
+<div id='beacon_909fb02d90' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://38.99.150.205/fun/lg.php?bannerid=29&amp;campaignid=7&amp;zoneid=8&amp;channel_ids=,&amp;loc=http%3A%2F%2Fwww.sendspace.com%2Ffile%2F2xjtkk&amp;cb=909fb02d90' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div>
+</div></div>
+
+
+
+
+<!-- FOOTER -->
+<hr class="hide">
+
+<div id="footer">
+<div id="footer_inner">
+
+&nbsp;<div id="copyright_footer">
+&copy; 2005-9 <strong><em>send</em>space</strong>.com | <a href="/about.html"> About Us</a> | <a href="/terms.html"> Terms Of Use</a> | <a href="/privacy_policy.html"> Privacy Policy</a></div>
+<div id="copyright_footer2">
+<a href="/" title="Your Free File Host">Your Free File Host</a></div>
+</div>
+</div>
+
+
+</div>
+
+
+    <!-- Start Quantcast tag -->
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+    <script type="text/javascript">_qacct="p-30CZo9bSova7A";quantserve();</script>
+    <noscript>
+    <a href="http://www.quantcast.com/p-30CZo9bSova7A" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-30CZo9bSova7A.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+    </noscript>
+    <!-- End Quantcast tag -->
+
+</body>
+</html>
