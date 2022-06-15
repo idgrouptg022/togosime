@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\User;
 use App\Categorie;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends Controller
 {
@@ -21,7 +22,7 @@ class UserController extends Controller
         } else {
             return back()->with('error', "Email ou mot de passe non trouvé(s) !");
         }
-        
+
     }
 
     public function profil() {
@@ -61,27 +62,27 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        
+
         if ($request->nom != "" && $request->email != "") {
 
             if (count(User::where('email', $request->email)->get()) == 0) {
                 $password = rand(0123021450, 5412032548);
-    
+
                 $user = new User;
                 $user->name = $request->nom;
                 $user->email = $request->email;
                 $user->password = sha1($password);
                 $user->save();
-    
+
                 $to_name = "Deblaa";
-    
+
                 $to_email = $request->email;
                 $data = array("email" => $request->email, "motDePasse" => $password);
-                \Mail::send('mails.user', $data, function($message) use ($to_name, $to_email) {
+                Mail::send('mails.user', $data, function($message) use ($to_name, $to_email) {
                     $message->to($to_email)
                             ->subject('Compte utilisateur Togosimé');
                 });
-    
+
                 return redirect(route('indexAdmin'))->with('success', "Compte créé avec succès !");
             } else {
                 return back()->with('error', "Email dejà utilisé !");
@@ -90,7 +91,7 @@ class UserController extends Controller
         } else {
             return redirect(route('indexAdmin'))->with('error', "Impossible de retourner un champs vide !");
         }
-        
+
     }
 
     /**
@@ -150,7 +151,7 @@ class UserController extends Controller
         if (count(User::where('id', $id)->get()) == 0) {
             abort('404');
         }
-        
+
         $user = User::findOrFail($id);
         $user->delete();
 
